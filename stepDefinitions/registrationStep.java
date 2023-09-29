@@ -27,13 +27,13 @@ public class registrationStep {
 
     @And("i enter my first name {string}")
     public void iEnterMyFirstName(String firstName) {
-      //  driver.findElement(By.xpath("//*[@id=\"wpforms-2082-field_0\"]")).sendKeys(firstName);
+
             registrationPage.EnterFirstName(firstName);
     }
 
     @And("i enter my last name {string}")
     public void iEnterMyLastName(String lastName) {
-       // driver.findElement(By.xpath("//*[@id=\"wpforms-2082-field_0-last\"]")).sendKeys(lastName);
+
         registrationPage.EnterLastName(lastName);
 
     }
