@@ -23,7 +23,7 @@ public class registrationStep {
         driver.manage().window().maximize();
         registrationPage = new RegistrationPage(driver);
         registrationPage.OpenUrl();
-        // test12
+        // test12123
     }
 
     @And("i enter my first name {string}")
